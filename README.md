@@ -3,6 +3,8 @@
 
 ![Logo](https://github.com/koneksys/Web-Based-SysML-Block-Diagram/raw/master/screenshot.png)
 
+![Logo](https://github.com/koneksys/Web-Based-SysML-Block-Diagram/raw/master/screenshot2.png)
+
 ```
 Version
     1.0
