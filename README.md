@@ -1,4 +1,4 @@
-# Development of a Web-based SysML Block Diagram
+# Web-Based SysML Block Diagram
 
 
 ![Logo](https://github.com/koneksys/Web-Based-SysML-Block-Diagram/raw/master/screenshot.png)
