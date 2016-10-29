@@ -10,6 +10,12 @@ Version
 Contributors
     Vorachet Jaroensawas, Koneksys (vorachet.jaroensawas@koneksys.com)
     Axel Reichwein, Koneksys (axel.reichwein@koneksys.com)  
+
+Technical advisor: 
+	Axel Reichwein, Koneksys (axel.reichwein@koneksys.com)  
+
+Project financed by Koneksys 
+
 ```
 
 As SysML plays a key role in designing complex systems, SysML models need to be reviewed and updated by many stakeholders including project managers, suppliers and engineers. Collaboration between various system stakeholders can take place in many different situations and locations, such as offices in which SysML tools have not been installed or off-site locations like manufacturing plants with no PCs. However, current SysML modeling tools are traditional PC applications which can only be used if they have been installed beforehand on PCs. As a result, it is very often not possible for stakeholders to actively review and update SysML models in review meetings. Instead, SysML models are only updated after meetings have taken place by only a few stakeholders who have access to SysML models. As a result, SysML models do not necessarily reflect the intent of all stakeholders and the review/update process of SysML models becomes inefficient. Thus the potential value of SysML to achieve better communication between all stakeholders cannot be reached with standard desktop applications for SysML modeling.
