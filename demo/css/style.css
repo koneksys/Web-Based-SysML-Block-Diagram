@@ -1,0 +1,57 @@
+body , html {
+  height: 1500px;
+  color: #FF8000;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */  font-family: 'Vidaloka', serif;
+}
+
+#container {
+  position: absolute;
+  overflow: hidden;
+  width: 90%;
+  height: 1350px;width: 1500px;margin:10px ; padding:0; left: 0px; top: 85px ;border: 0px inset black;
+}
+#container canvas {
+  border: 0px solid #FF8000;
+}
+#bottom {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#middle {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#top {
+    z-index: 3;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#glass {
+    z-index: 4;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:900}
+.tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(img/preload.gif) no-repeat 50% 50%;}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:url(img/close.png) no-repeat}
+.tclose:hover {background-position:0 -30px}
+
+#error {background:#666; color:#FF8000;padding:0}
+#error .tcontent {padding:10px 14px 11px; -moz-border-radius:5px; border-radius:5px}
+#success {background:#2ea125; color:#fff; border-right:1px solid #000; border-bottom:1px solid #000; padding:10; -moz-border-radius:0; border-radius:0}
+#bluemask {background:#4195aa}
+#mask {background:#FF8000}
+#frameless {padding:0}
+#frameless .tclose {left:6px}
